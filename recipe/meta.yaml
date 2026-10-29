@@ -19,7 +19,9 @@ source:
   sha256: {{ versions.get(version) }}
   {% endif %}
   patches:
-    {% if version <= "4.8.0" %}
+    # Only 4.8.0 needs it (upstream since 4.10.0). An exact match: a text
+    # comparison like <= "4.8.0" also matched "4.10.0".
+    {% if version == "4.8.0" %}
     - patches/algorithm.patch
     {% endif %}
 
