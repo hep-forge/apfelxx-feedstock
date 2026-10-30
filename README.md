@@ -15,8 +15,8 @@ A PDF evolution library in C++
 
 | Architecture | Latest published |
 |--------------|------------------|
-| linux-amd64 (`linux-64`) | ✅ `4.8.0` |
-| linux-arm64 (`linux-aarch64`) | ✅ `4.8.0` |
+| linux-amd64 (`linux-64`) | ✅ `4.10.0` |
+| linux-arm64 (`linux-aarch64`) | ✅ `4.10.0` |
 
 _As of the last feedstock render; the badges above are live._
 
