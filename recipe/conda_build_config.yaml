@@ -32,6 +32,8 @@ cxx_compiler:
 # standard should set CMAKE_CXX_STANDARD explicitly as well.
 c_compiler_version:    # [linux]
   - 14
+fortran_compiler_version:  # [linux]
+  - 14
 cxx_compiler_version:  # [linux]
   - 14
 libgcc_version:        # [linux]
